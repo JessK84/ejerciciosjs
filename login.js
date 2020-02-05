@@ -2,6 +2,6 @@
 
 const edad = Number(prompt("Ingrese su edad"));
 
-let respuesta = edad>=18 && "Bienvenido" || edad<18 && "No puede ingresar al sitio por ser menor";
+let respuesta = edad>=18 && "Bienvenido" || "No puede ingresar al sitio por ser menor"
 
 alert(respuesta);

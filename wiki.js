@@ -1,0 +1,7 @@
+//Crear un programa que permita al usuario ingresar una elección sobre una temática en particular (p.ej.: personajes de Marvel, animales, géneros de música, etc.) y dependiendo de la opción que elija muestre un mensaje con una breve información sobre la opción elegida. Si no se elige alguna de las elecciones propuestas, mostrar un mensaje de advertencia. Hacer mínimo 4 opciones posibles.
+
+const tematica = prompt("Ingrese un tema del que desea informacion: \n Marvel \n X Files \n Adele \n Millennium" );
+
+let respuesta = tematica === "Marvel" && "El Universo cinematográfico de Marvel es una franquicia de medios y un universo compartido, centrada en una serie de películas de superhéroes producidas independientemente por Marvel Studios y basadas en los personajes que aparecen en las publicaciones de Marvel Comics" || tematica === "X Files" && "Agentes especiales del FBI investigan casos inexplicables de los conocidos 'Expedientes Secretos X' quienes no descansarán hasta develar la verdad de estos fenómenos." || tematica === "Adele" && "Adele Laurie Blue Adkins, conocida simplemente como Adele, es una cantante, compositora y multinstrumentista británica" || tematica === "Millennium" && "La saga Millennium es una serie de novelas criminales suecas creada por Stieg Larsson y escritas las tres primeras obras por él mismo y las siguientes por David Lagercrantz, que ha conseguido un éxito de ventas a nivel internacional." || "No se un carajo sobre esa tematica";
+
+alert(respuesta);
